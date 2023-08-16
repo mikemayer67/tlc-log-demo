@@ -5,7 +5,7 @@ namespace TLC\LogDemo;
  * Plugin Name: TLC Log Demo
  * Plugin URI: https://github.com/mikemayer67/tlc-log-demo
  * Description: Plugin for testing ability to create/read a plugin log file
- * Version: 0.0.1
+ * Version: 0.0.2
  * Author: Michael A. Mayer
  * Requires PHP: 5.3.0
  * License: GPLv3

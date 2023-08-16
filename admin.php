@@ -10,6 +10,10 @@ const PAGE_SLUG = 'tlc-log-demo';
 
 function handle_admin_menu()
 {
+  log_info("add_options_page");
+
+  log_info(PAGE_SLUG);
+  log_info(ns('populate_settings_page'));
   add_options_page(
     'Log Demo', // page title
     'Log Demo', // menu title
@@ -34,6 +38,7 @@ add_action($action_links, ns('add_settings_link'));
 
 function populate_settings_page()
 {
+  log_info('populate_settings_page');
   $title = esc_html(get_admin_page_title());
   echo "<div class=wrap>";
   echo "<h1>$title</h1>";
